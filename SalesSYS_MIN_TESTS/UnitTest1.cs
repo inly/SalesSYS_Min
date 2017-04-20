@@ -1,5 +1,5 @@
 ﻿using System;
-
+using NUnit.Framework;
 
 namespace SalesSYS_MIN_TESTS
 {
