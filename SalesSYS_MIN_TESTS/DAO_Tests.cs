@@ -26,14 +26,14 @@ namespace SalesSYS_Min.Tests
             foreach (DataRow row in table.Rows)
             {
                 string value = row.ItemArray[2].ToString();
-                MessageBox.Show(value);
+               
                 if ((row.ItemArray[2].ToString().CompareTo("Hat")) == 1)
                 {
-                    MessageBox.Show(row.ItemArray[2].ToString());
+                    
                 }
                 else
                 {
-                    MessageBox.Show("False: " + row.ItemArray[2].ToString());
+                    
 
                     isHat = false;
                     break;
