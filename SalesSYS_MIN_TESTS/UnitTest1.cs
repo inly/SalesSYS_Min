@@ -3,10 +3,10 @@ using NUnit.Framework;
 
 namespace SalesSYS_MIN_TESTS
 {
-    [TestClass]
+    
     public class UnitTest1
     {
-        [TestMethod]
+        [Test]
         public void TestMethod1()
         {
         }

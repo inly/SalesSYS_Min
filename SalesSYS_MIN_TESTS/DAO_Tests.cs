@@ -11,10 +11,10 @@ using NUnit.Framework;
 
 namespace SalesSYS_Min.Tests
 {
-    [TestClass()]
+    
     public class DAO_Tests
     {
-        [TestMethod()]
+        [Test]
         public void GetByCategoryTest()
         {
             string category = "Hat";

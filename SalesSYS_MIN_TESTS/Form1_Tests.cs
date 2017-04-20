@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace SalesSYS_Min.Tests
 {
-    [TestClass()]
+    
     public class Form1_Tests
     {
-        [TestMethod()]
+        [Test]
         public void getTotalPriceTest()
         {
             Form1 form = new Form1();
