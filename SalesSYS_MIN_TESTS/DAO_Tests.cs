@@ -30,7 +30,7 @@ namespace SalesSYS_Min.Tests
                 if ((row.ItemArray[2].ToString().CompareTo("Hat")) == 1)
                 {
                     //do nothing
-                    //testing
+                    
                 }
                 else
                 {
