@@ -53,7 +53,7 @@ namespace SalesSYS_Min
             SqlDataAdapter da = new SqlDataAdapter(sql, connection);
             connection.Open();
             DataTable dt = new DataTable();
-            MessageBox.Show(category);
+           
             da.Fill(dt);
             connection.Close();
             return dt;
@@ -94,7 +94,7 @@ namespace SalesSYS_Min
             da.Fill(dataset, "Stock");
             connection.Close();
             connection.Close();
-            MessageBox.Show(dataset.Tables.Count.ToString());
+       
             return dataset;
         }
 

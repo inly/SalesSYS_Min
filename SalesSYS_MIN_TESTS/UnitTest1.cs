@@ -1,12 +1,12 @@
 ﻿using System;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace SalesSYS_MIN_TESTS
+namespace SalesSYs_Min_Tests
 {
-    
+    [TestClass]
     public class UnitTest1
     {
-        [Test]
+        [TestMethod]
         public void TestMethod1()
         {
         }
